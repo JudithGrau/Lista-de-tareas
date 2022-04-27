@@ -15,7 +15,7 @@ export const TASKS: Task[] = [
     },
     {
         id: 3,
-        text: "Terminar primer modulo de Angular",
+        text: "Terminar ejercicios de practica",
         day: 'Abril 26 a las 19:00',
         reminder: false
     },
