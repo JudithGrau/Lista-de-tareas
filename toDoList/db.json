@@ -1,16 +1,10 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Terminar primer modulo de Angular",
-      "day": "Abril 26 a las 12:00",
-      "reminder": true
-    },
-    {
       "id": 2,
       "text": "Hacer las compras para la cena",
       "day": "Abril 26 a las 17:00",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 3,
@@ -22,7 +16,19 @@
       "id": 4,
       "text": "Leer mi libro favorito",
       "day": "Abril 26 a las 21:00",
+      "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "Cocinar para la cena",
+      "day": "Abril 29 a las 22:00",
       "reminder": false
+    },
+    {
+      "id": 7,
+      "text": "Terminar Proyecto Final",
+      "day": "Mayo 31 a las 00:00",
+      "reminder": true
     }
   ]
 }

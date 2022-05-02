@@ -3,7 +3,7 @@ import { TaskService } from '../../service/task.service';
 import {Task} from '../../Task';
 
 @Component({
-  selector: 'app-tasks',
+  selector: 'app-tasks', 
   templateUrl: './tasks.component.html',
   styleUrls: ['./tasks.component.css']
 })
@@ -24,13 +24,18 @@ export class TasksComponent implements OnInit {
     this.taskService.deleteTask(task)
     .subscribe(
       () => {
-        this.tasks = this.tasks.filter( t => t.id !== task.id)
+        this.tasks = this.tasks.filter( (t) => t.id !== task.id)
     })
   }
 
-  toggleReminder( task:Task){
+  toggleReminder( task:Task){ 
     task.reminder = !task.reminder
     //console.log(task);
     this.taskService.updateTaskReminder(task).subscribe();
+  }
+  addTask(task:Task){
+    this.taskService.addTask(task).subscribe((task)=>{
+      this.tasks.push(task)
+    })
   }
 }
