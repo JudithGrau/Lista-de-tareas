@@ -1,4 +1,4 @@
-# Lista de Tareas
+# App Lista de Tareas
 En este proyecto trabajé con el framework **Angular** como práctica del curso de **Argentina Programa #YoProgramo**.
 
 
@@ -52,7 +52,7 @@ Uso de json-server para armar un pequeño servidor para guardar datos.
 ## Funcionamiento de la App: 🧐
 
 <p align="center">
-    <img width="600" src="/assets/Lista_de_tareas.gif">
+    <img width="600" src="./assets/Lista_de_tareas.gif">
 </p>
 
 ​
